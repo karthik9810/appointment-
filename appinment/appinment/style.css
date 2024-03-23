@@ -1,0 +1,61 @@
+header, footer {
+	background-color: #4CAF50;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+#appointment, #services {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#appointment h2, #services h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#appointment label, #appointment input, #appointment textarea {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#appointment input[type="text"], #appointment input[type="tel"], #appointment textarea {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+#appointment input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#appointment input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+.service {
+	margin: 20px 0;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.service h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.service p {
+	font-size: 16px;
+}

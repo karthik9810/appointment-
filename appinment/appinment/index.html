@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hospital Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Welcome to Our Hospital</h1>
+	</header>
+
+	<section id="appointment">
+		<h2>Make an Appointment</h2>
+		<form method="POST" action="submit.php">
+			<label for="name">Patient Name:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="address">Address:</label>
+			<input type="text" id="address" name="address" required>
+
+			<label for="phone">Phone Number:</label>
+			<input type="tel" id="phone" name="phone" required>
+
+			<label for="id">Patient ID Number:</label>
+			<input type="text" id="id" name="id" required>
+
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+
+			<input type="submit" value="Submit">
+		</form>
+	</section>
+
+	<section id="services">
+		<h2>Our Services</h2>
+		<div class="service">
+			<h3>Emergency Care</h3>
+			<p>We offer 24-hour emergency care for patients in critical condition.</p>
+		</div>
+		<div class="service">
+			<h3>General Surgery</h3>
+			<p>Our skilled surgeons can perform a variety of general surgical procedures.</p>
+		</div>
+		<div class="service">
+			<h3>Physical Therapy</h3>
+			<p>We provide rehabilitation services to help patients recover from injuries or surgeries.</p>
+		</div>
+	</section>
+
+	<footer>
+		<p>&copy; 2023 Hospital Website</p>
+	</footer>
+</body>
+</html>
